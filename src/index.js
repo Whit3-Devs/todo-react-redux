@@ -5,7 +5,7 @@ import { NextUIProvider } from '@nextui-org/react';
 import { BrowserRouter } from 'react-router-dom';
 // Redux
 import { Provider } from 'react-redux';
-import store from './redux/store/storeIndex';
+import store from './redux/store/storeIndex'
 // Import Components
 import App from './App';
 

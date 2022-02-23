@@ -2,7 +2,13 @@ import React from 'react'
 
 const FormTodo = () => {
   return (
-    <div>FormTodo</div>
+    <div>
+      <form action="">
+        <label>Task: </label>
+        <input type="text" name="" id="" />
+        <input type="button" value="Add" />
+      </form>
+    </div>
   )
 }
 
