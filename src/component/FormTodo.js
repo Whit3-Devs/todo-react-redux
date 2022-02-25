@@ -1,15 +1,21 @@
-import React from 'react'
+import React from "react";
+import { Container, Row, Col, Input, Button } from "@nextui-org/react";
 
 const FormTodo = () => {
   return (
-    <div>
-      <form action="">
-        <label>Task: </label>
-        <input type="text" name="" id="" />
-        <input type="button" value="Add" />
-      </form>
-    </div>
-  )
-}
+    <Container fluid display="flex">
+      <Row>
+        <Col>
+          <form action="" className="form">
+            <Input placeholder="Task" size="xl" />
+            <Button shadow color="primary" size="xl" auto>
+              Primary
+            </Button>
+          </form>
+        </Col>
+      </Row>
+    </Container>
+  );
+};
 
-export default FormTodo
+export default FormTodo;
