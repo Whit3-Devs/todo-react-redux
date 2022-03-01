@@ -13,7 +13,9 @@ const initialState = {
 export const rootReducer = ( state = initialState, { type, payload }) => {
 
     switch (type) {
-        case 'SET_MESSAGE':
+        case 'SET_TASK':
+            return { ...state, message: payload}
+        case 'ADD_TASK':
             return { ...state, message: payload}
         default:
             return state;
